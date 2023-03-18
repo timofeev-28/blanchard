@@ -1,0 +1,56 @@
+.body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 1660px;
+}
+
+.site-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: var(--gap-title );
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: var(--color-text);
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+*:focus-visible {
+  outline: 0;
+}
+
+/* Против крестика в инпуте */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
